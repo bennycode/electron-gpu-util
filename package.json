@@ -1,0 +1,25 @@
+{
+  "bugs": {
+    "url": "https://github.com/bennycode/electron-gpu-util/issues"
+  },
+  "description": "Electron GPU Test",
+  "devDependencies": {
+    "electron": "^12.0.1",
+    "electron-builder": "^22.10.5",
+    "rimraf": "^3.0.2"
+  },
+  "homepage": "https://github.com/bennycode/electron-gpu-util#readme",
+  "keywords": [],
+  "license": "ISC",
+  "main": "main.js",
+  "name": "electron-gpu-util",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bennycode/electron-gpu-util.git"
+  },
+  "scripts": {
+    "build:win": "rimraf dist && electron-builder --windows",
+    "start": "electron ."
+  },
+  "version": "1.0.0"
+}
