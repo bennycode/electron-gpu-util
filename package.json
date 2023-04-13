@@ -5,7 +5,7 @@
   "description": "Electron GPU Test",
   "devDependencies": {
     "electron": "10.3.1",
-    "electron-builder": "22.10.5",
+    "electron-builder": "24.2.0",
     "rimraf": "3.0.2"
   },
   "homepage": "https://github.com/bennycode/electron-gpu-util#readme",
